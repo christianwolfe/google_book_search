@@ -1,13 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header";
+import Header from './components/Header';
+import Books from './components/Books'
+import SearchBar from './components/SearchBar';
+import Body from './components/Body';
 
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Books />
+      <SearchBar />
+      <Body />
     </div>
   );
 }

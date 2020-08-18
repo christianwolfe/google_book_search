@@ -8,7 +8,9 @@ header {
   color: black;
   text-align: center;
 }
-
+.searcharea {
+  margin: 5px;
+}
 .App {
   text-align: center;
 }
